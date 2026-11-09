@@ -13,7 +13,7 @@
   <a href="https://403access.github.io/optimizr/"><img src="https://img.shields.io/badge/latest-Optimizr-7c5cff?style=flat-square" alt="Optimizr"></a>
 </p>
 
-> **Currently** — shipping **Optimizr**, building **Fitr** and **OpenCodeBar**, and writing up what **3,784 prompts** taught me about working with coding agents.
+> **Currently** — shipping **Optimizr**, building **Fitr** and **OpenCodeBar**, and writing up what **thousands of prompts** taught me about working with coding agents.
 
 A few things I keep coming back to:
 
@@ -222,7 +222,7 @@ A few things I keep coming back to:
 <td valign="top"><a href="https://github.com/403access/skills"><img src="assets/icons/skills.png" width="40" alt="Prompt Archaeology"></a></td>
 <td valign="top">
   <b>Prompt Archaeology</b><br>
-  What 3,784 prompts taught me about talking to a coding agent — plus seven skills.<br>
+  What thousands of prompts taught me about talking to a coding agent — plus seven skills.<br>
   <sub>JavaScript · data analysis</sub>
 </td>
 <td valign="top"><a href="https://github.com/403access/file_indexer"><img src="assets/icons/file-indexer.png" width="40" alt="File Indexer"></a></td>
