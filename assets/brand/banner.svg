@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070a10"/>
+      <stop offset="0.55" stop-color="#0a0f18"/>
+      <stop offset="1" stop-color="#0b1018"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(1240 190) rotate(90) scale(340 520)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7c5cff" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(1010 360) rotate(90) scale(300 420)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2dd4bf" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7c5cff"/>
+      <stop offset="0.55" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#c9fb4b"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1b2433" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="440" fill="url(#bg)"/>
+  <rect width="1600" height="440" fill="url(#grid)" opacity=".32"/>
+  <rect width="1600" height="440" fill="url(#glowA)"/>
+  <rect width="1600" height="440" fill="url(#glowB)"/>
+
+  <!-- orbit system -->
+  <g opacity=".9">
+    <circle cx="1245" cy="220" r="136" fill="none" stroke="#2a3548" stroke-width="1.2"/>
+    <circle cx="1245" cy="220" r="88" fill="none" stroke="#2a3548" stroke-width="1.2" stroke-dasharray="3 7"/>
+    <circle cx="1245" cy="220" r="196" fill="none" stroke="#202a3a" stroke-width="1.1" stroke-dasharray="1 9"/>
+
+    <g stroke="#33405a" stroke-width="1" opacity=".55">
+      <path d="M1109 220h272M1245 84v272M1148 123l194 194M1342 123 1148 317"/>
+    </g>
+
+    <!-- links -->
+    <g stroke="#4b5b7c" stroke-width="1.1" opacity=".55">
+      <path d="M1245 220 1157 156M1245 220l96-42M1245 220l14 96M1245 220l-78 62M1245 220l84 44"/>
+    </g>
+
+    <circle cx="1245" cy="220" r="34" fill="#0b1220" stroke="#7c5cff" stroke-width="1.6"/>
+    <circle cx="1245" cy="220" r="9" fill="#c9bfff"/>
+
+    <g>
+      <circle cx="1157" cy="156" r="7" fill="#7c5cff"/>
+      <circle cx="1157" cy="156" r="15" fill="#7c5cff" opacity=".25" filter="url(#soft)"/>
+      <circle cx="1341" cy="178" r="7" fill="#2dd4bf"/>
+      <circle cx="1341" cy="178" r="15" fill="#2dd4bf" opacity=".22" filter="url(#soft)"/>
+      <circle cx="1259" cy="316" r="7" fill="#c9fb4b"/>
+      <circle cx="1259" cy="316" r="15" fill="#c9fb4b" opacity=".2" filter="url(#soft)"/>
+      <circle cx="1167" cy="282" r="5.5" fill="#f472b6"/>
+      <circle cx="1329" cy="264" r="5.5" fill="#60a5fa"/>
+    </g>
+  </g>
+
+  <!-- text block -->
+  <g font-family="Avenir Next, Helvetica Neue, Helvetica, sans-serif">
+    <text x="96" y="118" fill="#5eead4" font-size="15" font-weight="600" letter-spacing="5.2">403ACCESS · SOFTWARE LAB</text>
+
+    <text x="94" y="222" fill="#f4f7fb" font-size="76" font-weight="700" letter-spacing="1.5">Oliver Molnar</text>
+
+    <text x="96" y="275" fill="#9aa7ba" font-size="27" font-weight="400">Native apps. Local-first tools.</text>
+    <text x="96" y="313" fill="#9aa7ba" font-size="27" font-weight="400">The occasional systems rabbit hole.</text>
+
+    <rect x="96" y="352" width="248" height="3" rx="1.5" fill="url(#accent)" opacity=".9"/>
+
+    <text x="96" y="392" fill="#61708a" font-size="15" font-weight="500" letter-spacing="3.4">macOS · iOS · TYPESCRIPT · RUST</text>
+  </g>
+</svg>
