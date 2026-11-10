@@ -62,16 +62,16 @@
   </g>
 
   <!-- text block -->
-  <g font-family="Avenir Next, Helvetica Neue, Helvetica, sans-serif">
-    <text x="96" y="118" fill="#5eead4" font-size="15" font-weight="600" letter-spacing="5.2">403ACCESS · SOFTWARE LAB</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="96" y="118" fill="#5eead4" font-size="15" font-weight="600" letter-spacing="4.2">403ACCESS · SOFTWARE LAB</text>
 
-    <text x="94" y="222" fill="#f4f7fb" font-size="76" font-weight="700" letter-spacing="1.5">Oliver Molnar</text>
+    <text x="92" y="222" fill="#f4f7fb" font-size="76" font-weight="700" letter-spacing="-0.8">Oliver Molnar</text>
 
     <text x="96" y="275" fill="#9aa7ba" font-size="27" font-weight="400">Native apps. Local-first tools.</text>
     <text x="96" y="313" fill="#9aa7ba" font-size="27" font-weight="400">The occasional systems rabbit hole.</text>
 
     <rect x="96" y="352" width="248" height="3" rx="1.5" fill="url(#accent)" opacity=".9"/>
 
-    <text x="96" y="392" fill="#61708a" font-size="15" font-weight="500" letter-spacing="3.4">macOS · iOS · TYPESCRIPT · RUST</text>
+    <text x="96" y="392" fill="#61708a" font-size="15" font-weight="500" letter-spacing="2.4">macOS · iOS · TYPESCRIPT · RUST</text>
   </g>
 </svg>
