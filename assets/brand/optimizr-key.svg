@@ -58,19 +58,19 @@
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif">
     <g>
-      <text x="512" y="196" fill="#e6ecf5" font-size="20" font-weight="600">Memory</text>
+      <text x="512" y="196" fill="#e6ecf5" font-size="20" font-weight="600" letter-spacing="-0.3">Memory</text>
       <text x="792" y="196" fill="#8b99ad" font-size="14" text-anchor="end">3 findings</text>
       <rect x="512" y="212" width="280" height="10" rx="5" fill="#1b2433"/>
       <rect x="512" y="212" width="196" height="10" rx="5" fill="#7c5cff"/>
     </g>
     <g>
-      <text x="512" y="274" fill="#e6ecf5" font-size="20" font-weight="600">CPU</text>
+      <text x="512" y="274" fill="#e6ecf5" font-size="20" font-weight="600" letter-spacing="-0.3">CPU</text>
       <text x="792" y="274" fill="#8b99ad" font-size="14" text-anchor="end">1 finding</text>
       <rect x="512" y="290" width="280" height="10" rx="5" fill="#1b2433"/>
       <rect x="512" y="290" width="98" height="10" rx="5" fill="#22d3ee"/>
     </g>
     <g>
-      <text x="512" y="352" fill="#e6ecf5" font-size="20" font-weight="600">Storage</text>
+      <text x="512" y="352" fill="#e6ecf5" font-size="20" font-weight="600" letter-spacing="-0.3">Storage</text>
       <text x="792" y="352" fill="#8b99ad" font-size="14" text-anchor="end">5 findings</text>
       <rect x="512" y="368" width="280" height="10" rx="5" fill="#1b2433"/>
       <rect x="512" y="368" width="162" height="10" rx="5" fill="#c9fb4b"/>
